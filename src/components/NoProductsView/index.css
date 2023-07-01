@@ -1,0 +1,17 @@
+.p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 70vh;
+}
+.shop-button {
+  cursor: pointer;
+  background-color: rgb(132, 132, 233);
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin-top: 15px;
+}

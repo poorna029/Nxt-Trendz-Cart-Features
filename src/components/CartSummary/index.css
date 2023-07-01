@@ -1,0 +1,54 @@
+.poorna {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.wi {
+  width: 250px;
+  border: 2px solid yellowgreen;
+  text-align: right;
+  border-radius: 15px;
+  padding-right: 10px;
+  height: 130px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.but {
+  cursor: pointer;
+  background-color: #99d;
+  padding: 3px;
+  border-radius: 5px;
+  color: rgb(56, 56, 105);
+  margin-top: 10px;
+  margin-right: 10px;
+  border-color: rgb(62, 62, 113);
+}
+.but:hover {
+  box-shadow: 0px 0px 10px 0px black;
+  border-color: #aaa;
+  color: rgb(50, 50, 105);
+  font-weight: 700;
+}
+
+.order {
+  background-color: white;
+  color: green;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 70vh;
+}
+.suborder {
+  width: 250px;
+  height: 150px;
+  border: 2px solid green;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
